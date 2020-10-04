@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS CART (
 	customer varchar(40) NOT NULL,
 	product varchar(40) NOT NULL,
 	quantity int(5) NOT NULL,
-	PRIMARY KEY (customer,product),
+	PRIMARY KEY (customer),
 	KEY product (product)
 )
 
